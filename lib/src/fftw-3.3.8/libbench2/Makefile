@@ -210,7 +210,7 @@ AVX2_CFLAGS =
 AVX512_CFLAGS = 
 AVX_128_FMA_CFLAGS = 
 AVX_CFLAGS = -mavx
-AWK = gawk
+AWK = mawk
 CC = gcc
 CCDEPMODE = depmode=gcc3
 CFLAGS = -O3 -fomit-frame-pointer -mtune=native -malign-double -fstrict-aliasing -fno-schedule-insns
@@ -233,7 +233,7 @@ EXEEXT =
 F77 = f77
 FFLAGS = -g -O2
 FGREP = /bin/grep -F
-FLIBS =  -L/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/libfabric/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/opt/intel/clck/2019.6/lib/intel64 -L/opt/intel/compilers_and_libraries_2020.0.166/linux/mpi/intel64/libfabric/lib -L/opt/intel/compilers_and_libraries_2020.0.166/linux/ipp/lib/intel64 -L/opt/intel/compilers_and_libraries_2020.0.166/linux/compiler/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2020.0.166/linux/mkl/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2020.0.166/linux/tbb/lib/intel64/gcc4.8 -L/opt/intel/compilers_and_libraries_2020.0.166/linux/daal/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2020.0.166/linux/daal/../tbb/lib/intel64_lin/gcc4.8 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -lgfortran -lm -lquadmath
+FLIBS =  -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -lgfortran -lm -lquadmath
 GREP = /bin/grep
 INDENT = 
 INSTALL = /usr/bin/install -c
